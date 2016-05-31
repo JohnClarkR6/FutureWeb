@@ -1,27 +1,44 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <title>@ViewBag.Title - FutureWeb </title>
+     @Styles.Render("~/styles")
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
 
+<header>
 
+    @if (User.Identity.IsAuthenticated)                                                
+    {
+        <p>Welcome back, @User.Identity.Name</p>                                                                 
+        <a href="@Url.RouteUrl("logout")">Logout</a>                                                
 
+        if (User.IsInRole("admin"))                                                                    
+        {
+            <a href="@Url.Action("index", "Posts", new { area = "admin" })"> View Posts n admin </a>     
+        }
+    }
+    else
+    {
+        <a href="@Url.RouteUrl("login")">Login</a>                                                  
+    }  
+
+    </header>
 
     <div class="container body-content">
-        @Renderbody();
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+       @RenderBody();  
     </div>
 
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+    @RenderSection("Scripts", false)
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

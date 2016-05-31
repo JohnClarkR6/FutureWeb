@@ -1,7 +1,34 @@
-﻿
+﻿@model FutureWeb.ViewModels.AuthLogin
+
 @{
     ViewBag.Title = "Login";
 }
+
+
+<h1>Login View</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary() <!--Tells if the field is required on the html form-->  
+
+    <div>
+        @Html.LabelFor(x => x.Username)
+        @Html.EditorFor(x => x.Username)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Password)
+        @Html.EditorFor(x => x.Password)
+    </div>
+
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+}
+
+
+
+
 
 
  <div class="container">
@@ -21,3 +48,5 @@
       </form>
 
     </div> <!-- /container -->
+
+

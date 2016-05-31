@@ -31,3 +31,10 @@ C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\System.Web.Mvc.xml
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\obj\Debug\FutureWeb.csprojResolveAssemblyReference.cache
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\obj\Debug\FutureWeb.dll
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\obj\Debug\FutureWeb.pdb
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Antlr3.Runtime.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Newtonsoft.Json.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\System.Web.Optimization.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\WebGrease.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml

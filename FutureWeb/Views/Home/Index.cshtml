@@ -1,4 +1,5 @@
-﻿
+﻿@using System.Web.Optimization
+
 @{
     ViewBag.Title = "Index";
     Layout = null;
@@ -10,8 +11,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/styles")
 
 </head>
 <body>
@@ -34,17 +34,36 @@
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Logout</a></li>
+                <ul class="nav navbar-nav navbar-right">                  
+                    <li> @if (User.Identity.IsAuthenticated)                                                
+                           {
+                                                                     
+                           <a href="@Url.RouteUrl("logout")">Logout</a>                                                
+
+                             if (User.IsInRole("admin"))                                                                    
+                              {
+                            <li>
+                            <a href="@Url.Action("index", "Posts", new { area = "admin" })"> View Posts in admin </a>     
+                                </li>
+                              }
+                             }
+                    else
+                    {
+                        <a href="@Url.RouteUrl("login")">Login</a>                                                  
+                    } 
+                    </li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Darian Van der Merwe<span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">@User.Identity.Name<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Profile</a></li>
                             <li><a href="#">Settings</a></li>
                             <li><a href="#">Inbox</a></li>
                         </ul>
                     </li>
+                    }
                 </ul>
             </div>
         </div>
@@ -105,6 +124,8 @@
 
     </div> <!--End of body Content-->
 
+
+  
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
