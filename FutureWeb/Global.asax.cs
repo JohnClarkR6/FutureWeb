@@ -13,11 +13,9 @@ namespace FutureWeb
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+           
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            
-            
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
