@@ -1,0 +1,105 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;   
+}
+
+html,body {
+
+     background-color: #252830;   /*background color of the site*/
+     font-family: 'Roboto', sans-serif !important; /*using font family  !important to override bootstrap*/
+     /*text-shadow: 1px 1px 1px #aaa;  /*text shadow look differnt*/
+     font-size: 14px;
+}
+
+#wrapper {
+    width: 100%;
+    position: absolute;   
+    padding-top: 75px;  /*gives the wrapper padding from the top so the navbar isnt infront of everything*/
+}
+
+
+h1 {  
+    color: whitesmoke;
+    text-align: center;   /*Set text to crentered*/
+}
+
+p {
+    color: aliceblue;
+}
+
+iframe  {
+    display: block;  /*Making video centered*/
+    margin: 0 auto;   /*Making video centered*/
+}
+
+#fixed-sidebar {
+
+    width: 200px;   /*gives the pills width*/
+    float: left;   /*floats the sidebar left*/
+    margin-left: 25px;  /*creates space between the edge of the screen*/
+}
+
+ .sidebar .nav-pills >li >a {
+    background-color: ;  /*gives the nav pills color*/
+    margin-bottom: 10px;   /*creates space between the nav pilla*/
+    text-align: left;  /*pulls text to the left*/
+    padding-left: 20px; /*gives a bit of padding to the left*/
+    color: White;
+ }
+
+#body-content {
+
+    height: 100%;    /*creates the height of the body*/
+    padding: 30px;    /*padding to give more space around the text*/
+    margin-left: 250px;  /*sets the body contents place so the sibebar is not infront of it*/
+    margin-right: 250px;   /*creates a gap on the right side of the screen*/
+    background-color: #3b404d; /*changed the bodys content background color*/
+}
+
+.navbar-header {
+     padding-left: 40px; /*moves the navbars centent left*/ 
+}
+
+
+.navbar-nav {
+     padding-right: 80px; /*gives a bit of padding to the right*/     
+}
+
+
+.navbar-collapse {
+    background-color: #252830;    /*set background color of the whole nav bar*/
+    font-size: large;    /*make font a big larger*/
+}
+
+
+#fixed-sidebar :hover {
+    background-color: #428bca;
+} 
+
+#fixed-sidebar :focus {
+    background-color: #428bca;
+} 
+
+#fixed-sidebar .dropdown-menu {    
+       
+    background-color: #3b404d;  /*dropdown menu background color*/
+    color: white;  /*font color*/
+
+}
+
+.dropdown-menu a {      /*drop down menu*/     
+    background-color: #3b404d;   /*background of he links*/
+    color: white;  /*font color*/
+    font-size:medium;   /*font size*/
+    padding-top: 80px;
+    padding: 10px 20px;  /*padding on edges*/
+    text-align: center;  /*text centered*/
+    text-decoration: none;   /*no text decorations*/
+    display: inline-block;  /*keeps everything inline*/
+}
+
