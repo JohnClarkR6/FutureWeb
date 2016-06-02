@@ -11,7 +11,7 @@ namespace FutureWeb.Infrastructure
 
         public override string[] GetRolesForUser(string username)
         {
-            return new[] { "admin" };
+            return Auth.User.Roles.Select(role => role.Name).ToArray();
         }
 
         public override string ApplicationName

@@ -38,3 +38,14 @@ C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\WebGrease.dll
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\FluentMigrator.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\FluentMigrator.pdb
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\FluentMigrator.xml
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\MySql.Data.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Iesi.Collections.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\NHibernate.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\Iesi.Collections.xml
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\NHibernate.xml
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
+C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.xml

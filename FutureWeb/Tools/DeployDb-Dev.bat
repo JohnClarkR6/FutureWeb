@@ -1,0 +1,1 @@
+﻿..\..\packages\fluentmigrator.1.6.2\tools\Migrate.exe --db=mysql --target=..\bin\futureweb.dll --configPath= ..\web.config -c=MainDb

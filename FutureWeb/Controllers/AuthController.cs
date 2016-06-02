@@ -1,4 +1,6 @@
-﻿using FutureWeb.ViewModels;
+﻿using FutureWeb.Models;
+using FutureWeb.ViewModels;
+using NHibernate.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +26,14 @@ namespace FutureWeb.Controllers
         [HttpPost]                                                   //removed ambiguity between views
         public ActionResult Login(AuthLogin form, string returnUrl)                //login view using the ViewModel's data and will show what happens after data is used.
         {
+            var user = Database.Session.Query<User>().FirstOrDefault(u => u.Username == form.Username);  //query database about user
+
+            if (user == null)
+                FutureWeb.Models.User.FakeHash();           //if no user name apply fake hash  to fix timing attack
+
+            if (user == null || !user.CheckPassword(form.Password))
+                ModelState.AddModelError("Username", "Username or password is incorrect");       
+
             if (!ModelState.IsValid)                                 //If the modelstate in Auth.Viewmodels if not valid i.e with [Required]   
                 return View(form);                                   //Return the view with the form again. If valid return the valid view
 
