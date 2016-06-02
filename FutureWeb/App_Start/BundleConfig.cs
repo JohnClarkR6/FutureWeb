@@ -17,7 +17,7 @@ namespace FutureWeb
 
             bundles.Add(new StyleBundle("~/styles")
                 .Include("~/content/bootstrap.css")
-                .Include("~/content/Site.css"));
+                .Include("~/content/site.css"));
 
             bundles.Add(new ScriptBundle("~/admin/scripts")
                 .Include("~/scripts/jquery-2.2.3.js")
@@ -31,9 +31,11 @@ namespace FutureWeb
 
             bundles.Add(new ScriptBundle("~/scripts")
                 .Include("~/scripts/jquery-2.2.3.js")
+                .Include("~/Scripts/JQuery.timeago.js")
                 .Include("~/scripts/jquery.validate.js")
                 .Include("~/scripts/jquery.validate.unobtrusive.js")
-                .Include("~/scripts/bootstrap.js"));
+                .Include("~/scripts/bootstrap.js")
+                .Include("~/scripts/Frontend.js"));
         }
     }
 }

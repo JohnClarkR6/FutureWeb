@@ -16,15 +16,23 @@ namespace FutureWeb
 
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute("Home","", new { controller = "Home", action = "Index" });
+            routes.MapRoute("TagForRealThisTime", "tag/{idAndSlug}", new { controller = "Posts", action = "Tag" }, namespaces);
+            routes.MapRoute("Tag", "tag/{id}-{slug}", new { controller = "Posts", action = "Tag" }, namespaces);
 
-            routes.MapRoute("Blog", "blog", new { controller = "Posts", action = "Index" });
+            routes.MapRoute("PostForRealThisTime", "post/{idAndSlug}", new { controller = "Posts", action = "Show" }, namespaces);
+            routes.MapRoute("Post", "post/{id}-{slug}", new { controller = "Posts", action = "Show" }, namespaces);         
 
-            routes.MapRoute("Login", "login", new { controller = "Auth", action = "Login" });
+            routes.MapRoute("Blog", "blog", new { controller = "Posts", action = "Index" }, namespaces);
 
-            routes.MapRoute("Logout", "logout", new { controller = "Auth", action = "Logout" });
+            routes.MapRoute("Login", "login", new { controller = "Auth", action = "Login" }, namespaces);
 
-            routes.MapRoute("Cover", "cover", new { controller = "Home", action = "Cover" });
+            routes.MapRoute("Logout", "logout", new { controller = "Auth", action = "Logout" }, namespaces);
+
+            routes.MapRoute("Cover", "cover", new { controller = "Home", action = "Cover" }, namespaces);
+
+            routes.MapRoute("Home", "", new { controller = "Home", action = "Index" }, namespaces);
+
+            routes.MapRoute("Sidebar", "", new { controller = "Layout", action = "Sidebar" }, namespaces);
         }
     }
 }

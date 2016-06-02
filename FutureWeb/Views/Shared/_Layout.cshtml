@@ -29,16 +29,24 @@
     }  
 
     </header>
+    <div class="container">
+        <div class="row">
+             <div class="col-lg-4 sidebar">
+                @Html.Action("Sidebar", "Layout")
+            </div>
+            <div class="col-lg-8">
+                @RenderBody()
+            </div>          
+        </div>
 
-    <div class="container body-content">
-       @RenderBody();  
+        <footer>
+            &copy; @DateTime.UtcNow.Year
+        </footer>
     </div>
 
 
     @Scripts.Render("~/scripts")
     @RenderSection("Scripts", false)
 
-        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-        <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>
