@@ -15,6 +15,8 @@ namespace FutureWeb.Models
         public virtual string Title { get; set; }
         public virtual string Slug { get; set; }
         public virtual string Content { get; set; }
+        public virtual string Description { get; set; }
+        public virtual string Topic { get; set; }
 
         public virtual DateTime CreatedAt { get; set; }
         public virtual DateTime? UpdatedAt { get; set; }
@@ -23,6 +25,32 @@ namespace FutureWeb.Models
         public virtual IList<Tag> Tags { get; set; }
 
         public Post()
+        {
+            Tags = new List<Tag>();
+        }
+
+        public virtual bool IsDeleted { get { return DeletedAt != null; } }
+
+    }
+
+    public class PostSingle
+    {
+        public virtual int Id { get; set; }
+        public virtual User User { get; set; }
+
+        public virtual string Title { get; set; }
+        public virtual string Slug { get; set; }
+        public virtual string Content { get; set; }
+        public virtual string Description { get; set; }
+        public virtual string Topic { get; set; }
+
+        public virtual DateTime CreatedAt { get; set; }
+        public virtual DateTime? UpdatedAt { get; set; }
+        public virtual DateTime? DeletedAt { get; set; }
+
+        public virtual IList<Tag> Tags { get; set; }
+
+        public PostSingle()
         {
             Tags = new List<Tag>();
         }
@@ -48,6 +76,8 @@ namespace FutureWeb.Models
             Property(x => x.Title, x => x.NotNullable(true));
             Property(x => x.Slug, x => x.NotNullable(true));
             Property(x => x.Content, x => x.NotNullable(true));
+            Property(x => x.Description, x => x.NotNullable(true));
+            Property(x => x.Topic, x => x.NotNullable(true));
 
             Property(x => x.CreatedAt, x =>
             {

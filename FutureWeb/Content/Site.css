@@ -1,5 +1,8 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Roboto);
 
+
+/*normal body*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,10 +14,162 @@
 html,body {
 
      background-color: #252830;   /*background color of the site*/
+     background: #161a21 url(../Content/Pictures/pattern.png) center -102px;
      font-family: 'Roboto', sans-serif !important; /*using font family  !important to override bootstrap*/
      /*text-shadow: 1px 1px 1px #aaa;  /*text shadow look differnt*/
      font-size: 14px;
+     color:antiquewhite;
+     
 }
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+    color:aliceblue;
+}
+
+
+
+/*Test*/
+
+data_wrapper {
+	overflow: hidden;
+	text-align: center;
+	height: 1205px;
+	padding: 0 0 0 100%;
+	position: relative;
+}
+#data_wrapper * {text-align: left}
+#data {
+	position: absolute;
+	top: -67px;
+	left: 0;
+	height: 1200px;
+	margin: 0 0 0 -600px;
+	left: 50%;
+	width: 1205px;
+}
+
+	#data .item {
+		position: absolute;
+		opacity: 0.3;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+	}
+	#data .item.empty {padding:6px 0 0 6px;display:none}
+
+		#data .item a,
+		#data .item span {
+			display: block;
+			width: 111px; /* 117 */
+			height: 124px; /* 130 */
+			padding: 6px 0 0 6px;
+			cursor: pointer;
+			background: url(images/cell.png) -1px 0 no-repeat;
+		}
+		#data .item a:hover,
+		#data .item.selected a {background-position: 0 -130px}
+		#data .item.selected a {
+			background-position: 0 -260px;
+			text-shadow: #09f1ef -1px -1px 0;
+		}
+
+		#data .item  h3,
+		#data .item  .date,
+		#data .item  p {display: none}
+
+	/* 105 */
+	#data .item.r1 {top:0}
+	#data .item.r2 {top:100px}
+	#data .item.r3 {top:200px}
+	#data .item.r4 {top:300px}
+	#data .item.r5 {top:400px}
+	#data .item.r6 {top:500px}
+	#data .item.r7 {top:600px}
+	#data .item.r8 {top:700px}
+	#data .item.r9 {top:800px}
+	#data .item.r10 {top:900px}
+	#data .item.r11 {top:1000px}
+
+	/* 115 */
+	#data .item.c1 {left:0}
+	#data .item.c2 {left:115px}
+	#data .item.c3 {left:230px}
+	#data .item.c4 {left:345px}
+	#data .item.c5 {left:460px}
+	#data .item.c6 {left:575px}
+	#data .item.c7 {left:690px}
+	#data .item.c8 {left:805px}
+	#data .item.c9 {left:920px}
+	#data .item.c10 {left:1035px}
+
+	/* 115 */
+	#data .item.even_row.c1 {left:58px}
+	#data .item.even_row.c2 {left:173px}
+	#data .item.even_row.c3 {left:288px}
+	#data .item.even_row.c4 {left:403px}
+	#data .item.even_row.c5 {left:518px}
+	#data .item.even_row.c6 {left:633px}
+	#data .item.even_row.c7 {left:748px}
+	#data .item.even_row.c8 {left:863px}
+	#data .item.even_row.c9 {left:978px}
+	#data .item.even_row.c10 {left:1093px}
+
+	#data .item.main {
+		opacity: 1;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	}
+		#data .item.main a {background: url(images/main-cell.png) -1px 0 no-repeat}
+		#data .item.main a:hover {background-position: 0 -130px}
+		#data .item.main.selected a {background-position: 0 -260px}
+		
+		#data .item.main.illustration a {background-position: -117px 0}
+		#data .item.main.illustration a:hover {background-position: -117px -130px}
+		#data .item.main.illustration.selected a {background-position: -117px -260px}
+		
+		#data .item.main.branding a {background-position: -234px 0}
+		#data .item.main.branding a:hover {background-position: -234px -130px}
+		#data .item.main.branding.selected a {background-position: -234px -260px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body-content {
+    margin-top:40px;
+    padding: 30px;    /*padding to give more space around the text*/
+    margin-left: 100px;  /*sets the body contents place so the sibebar is not infront of it*/
+    background-color: #3b404d; /*changed the bodys content background color*/
+  
+}
+
 
 #wrapper {
     width: 100%;
@@ -25,6 +180,11 @@ html,body {
 
 h1 {  
     color: whitesmoke;
+    text-align: center;   /*Set text to crentered*/
+}
+
+.p {
+    color: black;
     text-align: center;   /*Set text to crentered*/
 }
 
@@ -41,30 +201,10 @@ iframe  {
     margin: 0 auto;   /*Making video centered*/
 }
 
-#fixed-sidebar {
 
-    width: 200px;   /*gives the pills width*/
-    float: left;   /*floats the sidebar left*/
-    margin-left: 25px;  /*creates space between the edge of the screen*/
-}
 
- .sidebar .nav-pills >li >a {
-    background-color: ;  /*gives the nav pills color*/
-    margin-bottom: 10px;   /*creates space between the nav pilla*/
-    text-align: left;  /*pulls text to the left*/
-    padding-left: 20px; /*gives a bit of padding to the left*/
-    color: White;
- }
 
-#body-content {
-
-    height: 100%;    /*creates the height of the body*/
-    padding: 30px;    /*padding to give more space around the text*/
-    margin-left: 250px;  /*sets the body contents place so the sibebar is not infront of it*/
-    margin-right: 250px;   /*creates a gap on the right side of the screen*/
-    background-color: #3b404d; /*changed the bodys content background color*/
-}
-
+/*nav bar*/
 .navbar-header {
      padding-left: 40px; /*moves the navbars centent left*/ 
 }
@@ -81,38 +221,9 @@ iframe  {
 }
 
 
-#fixed-sidebar :hover {
-    background-color: #428bca;
-} 
-
-#fixed-sidebar :focus {
-    background-color: #428bca;
-} 
-
-#fixed-sidebar .dropdown-menu {    
-       
-    background-color: #3b404d;  /*dropdown menu background color*/
-    color: white;  /*font color*/
-
-}
-
-.dropdown-menu a {      /*drop down menu*/     
-    background-color: #3b404d;   /*background of he links*/
-    color: white;  /*font color*/
-    font-size:medium;   /*font size*/
-    padding-top: 80px;
-    padding: 10px 20px;  /*padding on edges*/
-    text-align: center;  /*text centered*/
-    text-decoration: none;   /*no text decorations*/
-    display: inline-block;  /*keeps everything inline*/
-}
 
 
-
-
-
-
-
+/*site header */
 
 .site-header {
     background: #2c3e50;
@@ -135,61 +246,37 @@ iframe  {
     text-decoration: none;
 }
 
-.post > h1 {
-    font-size: 16pt;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 5px;
-    height: 41px;
-    line-height: 41px;
-}
 
-.sidebar .tags .list-group {
-    margin: 0;
-}
 
-.sidebar .tags .list-group a {
-    position: relative;
-    background: transparent;
-    border-radius: 3px 4px;
-}
 
-.sidebar .tags .list-group a .name {
-    z-index: 2;
-    position: relative;
-}
 
-.sidebar .tags .list-group a .badge {
-    z-index: 5;
-    position: relative;
-}
+/*Blog posts*/
 
-.sidebar .tags .list-group a:hover {
-    background: #ddd;
-}
 
-.sidebar .tags .progress-bar {
-    background: #ddd;
-    border: none;
-    box-shadow: none;
-}
 
-.sidebar .tags .progress {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    padding: 6px;
-    margin: 0;
-    background: transparent;
-
-}
 
 .post {
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: 20px;
     margin-bottom: 20px;
+    position:relative;
+    background-color: darkgrey;
+    color: black;
+    
+}
+
+
+
+.post > h1 {
+    font-size: 12pt;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 41px;
+    line-height: 41px;
+    text-transform:capitalize;
+    text-align: left;
+    color: black;
 }
 
 .post footer {
@@ -197,7 +284,7 @@ iframe  {
     padding: 10px;
     overflow: hidden;
     font-size: 10pt;
-    color: #aaa;
+    color: blue;
 }
 
 .post .tags {
@@ -209,3 +296,54 @@ iframe  {
     float: left;
     margin-right: 5px;
 }
+
+
+
+
+
+
+
+
+/*sidebar*/
+
+.sidebar {
+
+    width: 190px;   /*gives the pills width*/
+    margin-left: 25px;  /*creates space between the edge of the screen*/
+    position:relative;
+}
+
+.nav > .li-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #51586a;
+    text-transform:uppercase;
+}
+
+
+.sidebar .nav-pills > li > a:hover {
+    color: #cfd2da;
+    background-color: #3b404d;
+  
+}
+
+.sidebar .nav-pills > li > a {
+    position: relative;
+    display: block;
+    padding: 7px 15px;
+    margin-bottom: 10px;   /*creates space between the nav pilla*/
+    text-align: left;  /*pulls text to the left*/
+    padding-left: 20px; /*gives a bit of padding to the left*/
+    color: #cfd2da;
+    font-size:medium;
+}
+
+
+
+
+
+

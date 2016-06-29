@@ -83,7 +83,7 @@ namespace FutureWeb.Controllers
 
             return View(new PostsShow
             {
-                Post = post
+                PostSingle = post
             });
         }
 

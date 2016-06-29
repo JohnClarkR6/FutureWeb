@@ -45,6 +45,30 @@ namespace FutureWeb.Controllers
             return RedirectToRoute("home");                         //otherwise return back to home.                 
         }
 
-        
+        public ActionResult Register()
+        {
+            return View();                                           //method used for GET requests
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public ActionResult Register(AuthRegister form)
+        {
+            var user = new User();
+
+            if (Database.Session.Query<User>().Any(u => u.Username == form.Username))     //querys the database for usernames, if it is unique it will continue
+                ModelState.AddModelError("Username", "Username must be unique");
+
+            if (!ModelState.IsValid)
+                return View(form);
+
+            user.Email = form.Email;
+            user.Username = form.Username;
+            user.SetPassword(form.Password);
+
+            Database.Session.Save(user);
+
+            return RedirectToRoute("home");                                              //method used for GET requests
+        }
+
     }
 }

@@ -1,24 +1,43 @@
 ﻿@using FutureWeb.Areas.Admin.Controllers
 @model FutureWeb.ViewModels.LayoutSidebar
 
+
 @{
     Layout = null;
 }
 
-<div class="panel panel-sucess">
-    <div class="panel-heading">About me</div>
-    <div class="panel-body">
-        I am a person and I do things.
-    </div>
-</div>
 
-@if (Model.Tags.Any())
-{
-    var maxPostsInTag = Model.Tags.Max(t => t.PostCount);
+<div class="container">
+ <div class="sidebar">
+     <ul id="sidebar" class="nav nav-pills nav-stacked">
+         <li class="li-header">Dashboard</li>
+         <li><a href="@Url.RouteUrl("Home")"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Home</a></li>
+         <li><a href="@Url.RouteUrl("Blog")"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Blog</a></li>
 
-    <div class="panel panel-info tags">
-        <div class="panel-heading">Tags</div>
-        <div class="panel-body">
+
+
+         <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> Topics</a></li>
+         <li class="li-header">Explore</li>
+        <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-code fa-fw" aria-hidden="true"></i> Programming<i class="fa fa-angle-down pull-right"></i></a>
+             <ul class="dropdown-menu pull-right">                
+             </ul>
+         </li>
+         <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-desktop fa-fw" aria-hidden="true"></i> Web Dev<i class="fa fa-angle-down pull-right"></i></a>
+             <ul class="dropdown-menu pull-right">
+                 <li><a href="/">Home</a></li>
+             </ul>
+         </li>
+
+         <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-folder-open fa-fw" aria-hidden="true"></i> Topics<i class="fa fa-angle-down pull-right"></i></a>
+             <ul class="dropdown-menu pull-right">
+             
+                 @if (Model.Tags.Any())
+        {
+            var maxPostsInTag = Model.Tags.Max(t => t.PostCount);
+
             <div class="list-group">
                 @foreach (var tag in Model.Tags)
                 {
@@ -33,26 +52,49 @@
                     </a>
                 }
             </div>
-        </div>
-    </div>
+     
+   
 }
 
-@if (Model.IsLoggedIn && Model.IsAdmin)
-{
-    <div class="panel panel-default">
-        <div class="panel-heading">Welcome back, @Model.Username</div>
-        <div class="panel-body">
-            <div class="btn-group btn-sm">
-                <a href="@Url.Action("index", "posts", new {area = "Admin"})" class="btn" btn-default">Posts</a>
-                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="@Url.Action("new", "posts", new {area="admin"})">Create Post</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-}
+
+
+             </ul>
+         </li>
+         <li class="li-header">Account</li>
+          @if (User.Identity.IsAuthenticated)
+                        {
+
+                            <li><a href="@Url.RouteUrl("logout")"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i> Logout</a></li>
+
+                            if (User.IsInRole("admin"))
+                            {
+                            <li><a href="@Url.Action("index", "Posts", new { area = "admin" })"><i class="fa fa-user fa-fw"></i> Admin </a></li>
+                            <li><a href="@Url.Action("new", "posts", new {area="admin"})"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Create Post</a></li>
+                            }
+                        }
+            
+                        else
+
+                        {
+                            
+                            <li><a href="@Url.RouteUrl("Login")"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i> Login</a></li>
+                            <li><a href="@Url.RouteUrl("Register")"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Register</a></li>
+          }
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user fa-fw"></i> @User.Identity.Name<i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><i class="fa fa-user fa-fw"></i> Profile</a></li>
+                                    <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> Settings</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> Inbox</a></li>
+                                </ul>
+                            </li>
+                        }
+
+                    </ul>
+     
+          </div>
+</div>
+

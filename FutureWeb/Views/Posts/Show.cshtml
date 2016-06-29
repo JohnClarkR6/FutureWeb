@@ -1,8 +1,8 @@
 ﻿@model FutureWeb.ViewModels.PostsShow
 
 @{
-    ViewBag.Title = Model.Post.Title;
+    ViewBag.Title = Model.PostSingle.Title;
 }
 
 
-@Html.Partial("_Post", Model.Post)
+@Html.Partial("_PostSingle", Model.PostSingle)

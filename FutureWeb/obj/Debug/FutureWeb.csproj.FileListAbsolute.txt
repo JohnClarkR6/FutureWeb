@@ -49,3 +49,207 @@ C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\NHibernate.xml
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
 C:\Users\Darian\Desktop\Website\FutureWeb\FutureWeb\bin\BCrypt.Net.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\csc.exe
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\vbc.exe
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.dll.config
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.pdb
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Antlr3.Runtime.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Iesi.Collections.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\MySql.Data.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Newtonsoft.Json.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\NHibernate.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Helpers.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Mvc.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Optimization.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Razor.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\WebGrease.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.pdb
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Iesi.Collections.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\NHibernate.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Razor.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Helpers.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Mvc.xml
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.csprojResolveAssemblyReference.cache
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.dll
+C:\Users\Darian\Desktop\Finished Projects\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.pdb
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\csc.exe
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\vbc.exe
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.dll.config
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FutureWeb.pdb
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Antlr3.Runtime.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Iesi.Collections.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\MySql.Data.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Newtonsoft.Json.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\NHibernate.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Helpers.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Mvc.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Optimization.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Razor.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\WebGrease.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\BCrypt.Net.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.pdb
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\FluentMigrator.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Iesi.Collections.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\NHibernate.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Razor.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Helpers.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\bin\System.Web.Mvc.xml
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.csprojResolveAssemblyReference.cache
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.dll
+C:\Users\Darian\Desktop\FutureWebSecond\FutureWeb\FutureWeb\obj\Debug\FutureWeb.pdb
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\csc.exe
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\vbc.exe
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.dll.config
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.pdb
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Antlr3.Runtime.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Iesi.Collections.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\MySql.Data.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Newtonsoft.Json.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\NHibernate.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Helpers.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Mvc.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Optimization.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Razor.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\WebGrease.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.pdb
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Iesi.Collections.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\NHibernate.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Razor.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Helpers.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Mvc.xml
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.csprojResolveAssemblyReference.cache
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.dll
+C:\Users\Darian\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.pdb
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\csc.exe
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\vbc.exe
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.dll.config
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FutureWeb.pdb
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Antlr3.Runtime.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Iesi.Collections.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\MySql.Data.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Newtonsoft.Json.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\NHibernate.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Helpers.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Mvc.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Optimization.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Razor.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\WebGrease.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Antlr3.Runtime.pdb
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.pdb
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\BCrypt.Net.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.pdb
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\FluentMigrator.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Iesi.Collections.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\Newtonsoft.Json.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\NHibernate.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Optimization.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Razor.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Helpers.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\bin\System.Web.Mvc.xml
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.csprojResolveAssemblyReference.cache
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.dll
+C:\Users\daria\Desktop\FutureWeb\FutureWeb\FutureWeb\obj\Debug\FutureWeb.pdb

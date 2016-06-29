@@ -1,0 +1,158 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+@using System.Web.Optimization
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - FutureWeb </title>
+     @Styles.Render("~/styles")
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="https://use.fontawesome.com/4ef72439e1.js"></script>
+</head>
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <!--Start of nav Bar Top-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("FutureWeb", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+
+        </div>
+    </div>     <!--End of navbar Top-->
+
+
+
+
+
+    <div id="wrapper">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 sidebar">
+                    @Html.Action("Sidebar", "Layout")
+                </div>
+                <div class="col-lg-8">
+
+                    <div id="data_wrapper">
+                        <div id="data">
+                            <div>
+
+                                <div class="item main r6 c5 even_row  websites" rel="websites"><a href="#"></a></div>
+
+                                <div class="item websites even_row r4 c4">
+                                    <h3>Startwish iPhone App</h3>
+                                    <div class="image"><a href="#"><img src="Cells/startwish.Png" title="Startwish iPhone App" alt="wtf" /></a></div>
+                                </div>
+
+                                <div class="item websites r5 c6">
+                                    <h3>Moto Microsite</h3>
+                                    <div class="image"><a href="#"><img src="cells/ktm.png" title="Moto Microsite" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r8 c6">
+                                    <h3>Future Map</h3>
+                                    <div class="image"><a href="#"><img src="cells/futuremap.png" title="Future Map" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r4 c6">
+                                    <h3>Daisy Disk</h3>
+                                    <div class="image"><a href="#"><img src="cells/dd.png" title="Daisy Disk" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r4 c5">
+                                    <h3>Timeweb.ru 2013</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-new.png" title="Timeweb.ru 2013" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites r5 c4">
+                                    <h3>Timeweb24: free mail</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw24.png" title="Timeweb24: free mail" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites r5 c7">
+                                    <h3>Timeweb Webmail 2.0</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-wm2.png" title="Timeweb Webmail 2.0" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites r7 c7">
+                                    <h3>Timeweb Control Panel</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-cp2.png" title="Timeweb Control Panel" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r6 c4">
+                                    <h3>Timeweb Webmail 1.0</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-webmail.png" title="Timeweb Webmail 1.0" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites r5 c5">
+                                    <h3>Icons & Pictograms 2007-2013</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-cp-2.png" title="Icons & Pictograms 2007-2013" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites r7 c4">
+                                    <h3>Mint. Advertising agency</h3>
+                                    <div class="image"><a href="#"><img src="cells/mint-2.png" title="Mint. Advertising agency" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r6 c6">
+                                    <h3>Perevodim.pro Translations</h3>
+                                    <div class="image"><a href="#"><img src="cells/perevodim-2.png" title="Perevodim.pro Translations" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r6 c7">
+                                    <h3>Timeweb.ru 2010</h3>
+                                    <div class="image"><a href="#"><img src="cells/tw-banner-1.png" title="Timeweb.ru 2010" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r6 c3">
+                                    <h3>Deepartment Design</h3>
+                                    <div class="image"><a href="#websites/deepartment"><img src="cells/deept.png" title="Deepartment Design" alt="" /></a></div>
+                                </div>
+
+                                <div class="item websites even_row r8 c4">
+                                    <h3>Websites Archive</h3>
+                                    <div class="image"><a href="#websites/web-archive"><img src="cells/oyster-2.png" title="Websites Archive" alt="" /></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <form class="hidden" id="anti-forgery-form">
+        @Html.AntiForgeryToken()
+    </form>
+
+
+    @Scripts.Render("~/scripts")
+
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+﻿@model FutureWeb.ViewModels.AuthRegister
+
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<h1>Register</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary() <!--Tells if the field is required on the html form-->
+
+    <div>
+        @Html.LabelFor(x => x.Username)
+        @Html.EditorFor(x => x.Username, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+    <div >
+        @Html.LabelFor(x => x.Password)
+        @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control" , id = "password1" } })
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.ConfirmPassword)
+        @Html.EditorFor(x => x.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", id = "password2" } })
+    </div>
+
+    <div>
+        <input type="submit" value="Register" class="btn btn-primary" />
+        <a href="@Url.RouteUrl("Home")">Cancel</a>
+    </div>
+}
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#password2").keyup(validate);
+    });
+
+
+    function validate() {
+        var password1 = $("#password1").val();
+        var password2 = $("#password2").val();
+
+
+
+        if (password1 == password2) {
+            $("#validate-status").text("valid");
+        }
+        else {
+            $("#validate-status").text("invalid");
+        }
+
+    }
+</script>
+
+
+@*new { htmlAttributes = new { @class = "form-control" } }*@
+
+
+
+
+
+
+@* Register Popup*@
+
+
+@*<div id="id02" class="modal">
+<div class="container">
+			<div class="row main">
+				<div class="panel-heading">
+	               <div class="panel-title text-center">
+	               		<h1 class="title">Register</h1>
+	               		<hr />
+	               	</div>
+	            </div> 
+				<div class="main-login main-center">
+					<form class="form-horizontal" method="post" action="#">
+						
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">Your Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Username</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+						</div>						
+					</form>
+				</div>
+			</div>
+		</div>
+    </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>*@
+
+
+
+
+
+
+
+
+
+
+

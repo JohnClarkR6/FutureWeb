@@ -130,16 +130,36 @@
     <Content Include="Areas\Admin\Scripts\PostEditor.js" />
     <Content Include="Content\Admin.css" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Cover.css" />
+    <Content Include="Content\Pictures\Logos\image10.png" />
+    <Content Include="Content\Pictures\Logos\raspberry-pi-logo-212x250.png" />
+    <Content Include="Content\Pictures\Logos\raspberryrpi.png" />
+    <Content Include="Content\Pictures\Logos\Xamagon.png" />
+    <Content Include="Views\Test\Cells\dd.png" />
+    <Content Include="Views\Test\Cells\deept.png" />
+    <Content Include="Views\Test\Cells\futuremap.png" />
+    <Content Include="Views\Test\Cells\ktm.png" />
+    <Content Include="Views\Test\Cells\mint-2.png" />
+    <Content Include="Views\Test\Cells\oyster-2.png" />
+    <Content Include="Views\Test\Cells\perevodim-2.png" />
+    <Content Include="Views\Test\Cells\rsti-1.png" />
+    <Content Include="Views\Test\Cells\startwish.png" />
+    <Content Include="Views\Test\Cells\tw-banner-1.png" />
+    <Content Include="Views\Test\Cells\tw-cp-2.png" />
+    <Content Include="Views\Test\Cells\tw-cp2.png" />
+    <Content Include="Views\Test\Cells\tw-new.png" />
+    <Content Include="Views\Test\Cells\tw-webmail.png" />
+    <Content Include="Views\Test\Cells\tw-wm2.png" />
+    <Content Include="Views\Test\Cells\tw24.png" />
+    <Content Include="Content\Pictures\pattern.png" />
     <Content Include="Content\Pictures\pic20.jpg" />
     <Content Include="Content\Pictures\pic3.jpg" />
     <Content Include="Content\Site.css" />
+    <Content Include="fonts\Awesome-font\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="LICENSE.txt" />
     <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
@@ -159,6 +179,11 @@
     <Content Include="Scripts\ckeditor\plugins\wsc\README.md" />
     <Content Include="Scripts\ckeditor\README.md" />
     <Content Include="Scripts\ckeditor\skins\moono\readme.md" />
+    <Content Include="fonts\Awesome-font\fontawesome-webfont.eot" />
+    <Content Include="fonts\Awesome-font\fontawesome-webfont.ttf" />
+    <Content Include="fonts\Awesome-font\fontawesome-webfont.woff" />
+    <Content Include="fonts\Awesome-font\FontAwesome.otf" />
+    <Content Include="Views\Test\Index.cshtml" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\build-config.js" />
@@ -419,6 +444,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\PostsController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
     <Compile Include="Areas\Admin\ViewModels\Posts.cs" />
     <Compile Include="Areas\Admin\ViewModels\Users.cs" />
@@ -437,6 +463,7 @@
     <Compile Include="Infrastructure\StringExtension.cs" />
     <Compile Include="Infrastructure\TransactionFilter.cs" />
     <Compile Include="Migrations\_001_UsersAndRoles.cs" />
+    <Compile Include="Migrations\_003_PostsUpdate.cs" />
     <Compile Include="Migrations\_002_PostsAndTags.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\Role.cs" />
@@ -465,6 +492,8 @@
     <Content Include="Views\Posts\Show.cshtml" />
     <Content Include="Views\Posts\Tag.cshtml" />
     <Content Include="Views\Layout\Sidebar.cshtml" />
+    <Content Include="Views\Auth\Register.cshtml" />
+    <Content Include="Views\Posts\_PostSingle.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -12,69 +12,54 @@
     @Html.ValidationSummary() <!--Tells if the field is required on the html form-->  
 
     <div>
-        @Html.LabelFor(x => x.Username)
-        @Html.EditorFor(x => x.Username)
+      
+        @Html.EditorFor(x => x.Username, new { htmlAttributes = new { @class = "form-control" } })
     </div>
 
     <div>
-        @Html.LabelFor(x => x.Password)
-        @Html.EditorFor(x => x.Password)
+       
+        @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control" } })
     </div>
 
     <div>
-        <input type="submit" value="Login" />
+        <input type="submit" value="Login" class="btn btn-primary" />
     </div>
 }
 
 
 
+@* Login Popup *@
 
+@*<div id="id01" class="modal">
+    <form class="modal-content animate">
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
 
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
 
- <div class="container">
-
-      <form class="form-signin">
-
-        <h2 class="form-signin-heading">Please sign in</h2>
-
-        <label for="inputUsername" class="sr-only">Username</label>
-
-        <input type="Username" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
-
-        <label for="inputPassword" class="sr-only">Password</label>
-
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-
-        <div class="checkbox">
-
-          <label>
-
-            <input type="checkbox" value="remember-me"> Remember me
-
-          </label>
-
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
         </div>
 
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-
-      </form>
-
-    </div> <!-- /container -->
-
-<div class="container">
-    <form class="form-control">
-<div class="form-group">
-  <label for="usr">Name:</label>
-  <input type="text" class="form-control" id="usr">
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
 </div>
-<div class="form-group">
-  <label for="pwd">Password:</label>
-  <input type="password" class="form-control" id="pwd">
-</div>
-<div>
-         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
-    </div>
-        </form>
-    </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>*@
 

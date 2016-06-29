@@ -14,7 +14,7 @@ namespace FutureWeb.ViewModels
 
     public class PostsShow
     {
-        public Post Post { get; set; }
+        public Post PostSingle { get; set; }
     }
 
     public class PostsTag

@@ -28,11 +28,16 @@ namespace FutureWeb
 
             routes.MapRoute("Logout", "logout", new { controller = "Auth", action = "Logout" }, namespaces);
 
+            routes.MapRoute("Register", "register", new { controller = "Auth", action = "Register" }, namespaces);
+
             routes.MapRoute("Cover", "cover", new { controller = "Home", action = "Cover" }, namespaces);
 
             routes.MapRoute("Home", "", new { controller = "Home", action = "Index" }, namespaces);
 
             routes.MapRoute("Sidebar", "", new { controller = "Layout", action = "Sidebar" }, namespaces);
+
+            routes.MapRoute("Test", "Test", new { controller = "Test", action = "Index" }, namespaces);
+
         }
     }
 }

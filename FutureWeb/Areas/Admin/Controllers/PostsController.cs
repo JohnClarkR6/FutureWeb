@@ -14,7 +14,7 @@ namespace FutureWeb.Areas.Admin.Controllers
     [SelectedTab("posts")]
     public class PostsController : Controller
     {
-        private const int PostsPerPage = 5;
+        private const int PostsPerPage = 10;
 
         public ActionResult Index(int page = 1)
         {
@@ -69,6 +69,8 @@ namespace FutureWeb.Areas.Admin.Controllers
                 IsNew = false,
                 PostId = id,
                 Content = post.Content,
+                Description = post.Description,
+                Topic = post.Topic,
                 Slug = post.Slug,
                 Title = post.Title,
                 Tags = Database.Session.Query<Tag>().Select(tag => new TagCheckBox
@@ -119,6 +121,8 @@ namespace FutureWeb.Areas.Admin.Controllers
             }
 
             post.Title = form.Title;
+            post.Description = form.Description;
+            post.Topic = form.Topic;
             post.Slug = form.Slug;
             post.Content = form.Content;
 

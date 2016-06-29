@@ -3,19 +3,19 @@
 
 <div>
 <article class="post">
-    <div>
+        <div>
         @Model.Topic
     </div>
     <h1><a href="@Url.RouteUrl("Post", new {Model.Id, Model.Slug})">@Model.Title</a></h1>
     <div>
-        @Html.Raw(Model.Description)
+        @Html.Raw(Model.Content)
     </div>
     <div>
     <footer>
         <ul class="pull-right list-unstyled tags">
             @foreach (var tag in Model.Tags)
             {
-                <li>
+                <li>                   
                     <a class="badge" href="@Url.RouteUrl("Tag", new {tag.Id, tag.Slug})">@tag.Name</a>
                 </li>
             }
@@ -25,4 +25,5 @@
         </div>
 </article>
 </div>
+
 

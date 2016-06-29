@@ -29,7 +29,13 @@ namespace FutureWeb.Areas.Admin.ViewModels
         public string Title { get; set; }
 
         [Required, MaxLength(128)]
+        public string Topic { get; set; }
+
+        [Required, MaxLength(128)]
         public string Slug { get; set; }
+
+        [Required, DataType(DataType.MultilineText)]
+        public string Description { get; set; }
 
         [Required, DataType(DataType.MultilineText)]
         public string Content { get; set; }
